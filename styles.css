@@ -72,6 +72,7 @@ header{
   background-size: cover;
   background-position:90% 30%;
   background-repeat: no-repeat;
+
 }
 .titleFont{
   font-weight: 700;
@@ -99,4 +100,30 @@ header{
  border-radius: 50%;
  width: 16rem;
  margin-left: 3rem;
+}
+.oneContainer{
+  display: flex;
+  width: 100%;
+}
+.leftContainerOne{
+width: 50%;
+}
+.rightContainerOne{
+ width: 50%;
+}
+.imgWomanCoup{
+  width: 100%;
+
+}
+.oneContainer .leftContainerOne h2{
+  color: var(--black);
+  font-size: 3.6rem;
+  font-family: 'Oswald',sans-serif;
+  margin: 1.1rem 2rem 0px 0px;
+}
+.oneContainer .leftContainerOne  p {
+   font-size: 1.6rem;
+   color: var(--black);
+   font-family: 'Open Sans',sans-serif;
+   margin: 2rem 2rem 0px 0px;
 }
