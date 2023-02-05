@@ -125,11 +125,12 @@ header{
   height: 100%;
 }
 
-.oneContainer .leftContainerOne h2{
+.oneContainer .leftContainerOne .alignElmentsCenter h2{
   color: var(--black);
   font-size: 3.6rem;
   font-family: 'Oswald',sans-serif;
   margin: 1.1rem 2rem 0px 0px;
+  line-height: 1.2;
 }
 .oneContainer .leftContainerOne  p {
    font-size: 1.6rem;
@@ -166,4 +167,13 @@ header{
 .buttonStyle:hover{
   background-color: var(--borderButtons);
   color: var(--white);
+}
+.m{
+ margin: 3rem  2rem 0px 0px;
+}
+.i{
+  font-style: italic;
+}
+.bm{
+   margin-top: 5.5rem ;
 }
