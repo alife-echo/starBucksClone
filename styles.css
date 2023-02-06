@@ -111,7 +111,7 @@ header{
   width: 50%;
   display: flex;
   flex-direction: column;
-
+  
 }
 .alignElmentsCenter{
   display: flex;
@@ -121,6 +121,7 @@ header{
 }
 .brotherContainer{
  width: 50%;
+
 }
 .imgsOneContainer{
   width: 100%;
@@ -147,10 +148,12 @@ header{
    background-color: var(--rowLeftContainerOne);
 }
 .pStyle{
+  font-weight: 400;
  font-size: 1.6rem;
  color: var(--black);
  font-family: 'Open Sans',sans-serif;
  width: 45rem;
+ line-height: 1.6;
 }
 .buttonStyle{
   background-color: var(--white);
@@ -179,4 +182,16 @@ header{
 }
 .bm{
    margin-top: 5.5rem ;
+}
+.d{
+  justify-content: center;
+}
+.d{
+  background-image: url('./imgs/bg2.jpg');
+                    /* x,y */  
+  background-position: 13%  50%;
+  background-repeat: no-repeat;
+}
+.trnp{
+  background: transparent;
 }
