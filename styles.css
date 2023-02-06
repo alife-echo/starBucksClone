@@ -96,28 +96,30 @@ header{
 .imgShakes{
   padding: 3rem 1px 6rem 19rem;
 }
+
 .styleImgsShakes{
  border: 0.5rem solid  var(--borderShakes);
  border-radius: 50%;
  width: 16rem;
  margin-left: 3rem;
 }
-.oneContainer{
+.containerFlex{
   display: flex;
   width: 100%;
 }
-.leftContainerOne{
+.containerFlexColumn{
   width: 50%;
   display: flex;
   flex-direction: column;
 
 }
 .alignElmentsCenter{
-  position: relative;
-  left: 20%;
+  display: flex;
+  flex-direction: column;
   margin: 5rem 0px 5rem 0px;
+  align-self: center ;
 }
-.rightContainerOne{
+.brotherContainer{
  width: 50%;
 }
 .imgsOneContainer{
@@ -125,28 +127,26 @@ header{
   height: 100%;
 }
 
-.oneContainer .leftContainerOne .alignElmentsCenter h2{
+.titleContainerFlex{
   color: var(--black);
   font-size: 3.6rem;
+  width: 40rem;
   font-family: 'Oswald',sans-serif;
   margin: 1.1rem 2rem 0px 0px;
   line-height: 1.2;
 }
-.oneContainer .leftContainerOne  p {
+.oneContainer .containerFlexColumn  p {
    font-size: 1.6rem;
    color: var(--black);
    font-family: 'Open Sans',sans-serif;
    margin: 2rem 2rem 0px 0px;
 }
-.rowLeftContainerOne{
+.rowContainerFlex{
    width: 16.8rem;
    height: 2.2rem;
    background-color: var(--rowLeftContainerOne);
 }
-.rowLeftContainerOne{
- font-style: italic; 
-}
-.pLeftContainerOne{
+.pStyle{
  font-size: 1.6rem;
  color: var(--black);
  font-family: 'Open Sans',sans-serif;
@@ -163,6 +163,8 @@ header{
   border-radius: 3px;
   letter-spacing: 2px;
   cursor: pointer;
+  word-wrap: break-word;
+  width: 16.7rem;
 }
 .buttonStyle:hover{
   background-color: var(--borderButtons);
@@ -173,6 +175,7 @@ header{
 }
 .i{
   font-style: italic;
+  margin-top: 2rem;
 }
 .bm{
    margin-top: 5.5rem ;
