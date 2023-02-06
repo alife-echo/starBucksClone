@@ -19,6 +19,7 @@ html{
    --borderShakes : #117050;
    --rowLeftContainerOne : #006341;
    --borderButtons:#454545;
+   --backgroundLastImg : #e8e9ee;
 }
 body{
    width: 100%;
@@ -111,7 +112,7 @@ header{
   width: 50%;
   display: flex;
   flex-direction: column;
-  
+ 
 }
 .alignElmentsCenter{
   display: flex;
@@ -151,7 +152,7 @@ header{
   font-weight: 400;
  font-size: 1.6rem;
  color: var(--black);
- font-family: 'Open Sans',sans-serif;
+ font-family: 'Open Sans',sans-serSectionImgif;
  width: 45rem;
  line-height: 1.6;
 }
@@ -195,4 +196,29 @@ header{
 }
 .trnp{
   background: transparent;
+}
+.imgsLast{
+  width: 60%;
+  height: 60%;
+}
+
+.cFb{
+  background-color:var(--backgroundLastImg) ;
+}
+.cFcLi{
+  padding: 10rem 0px 10rem 0px;
+
+}
+.lastSectionImg{
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  background-color: var(--backgroundLastImg);
+}
+.pSl{
+  width: 28rem;
+  word-wrap: break-word; 
+}
+.tc{
+  width: 28rem;
 }
