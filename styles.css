@@ -189,8 +189,9 @@ header{
 .d{
   background-image: url('./imgs/bg2.jpg');
                     /* x,y */  
-  background-position: 13%  50%;
+  background-position: 11%  10%;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .trnp{
   background: transparent;
