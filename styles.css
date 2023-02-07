@@ -226,12 +226,13 @@ header{
 #sideBar{
   display: none;
   position: fixed;
-  top: 0;
   left: 0;
+  top: 0;
+  bottom: 0;
   width: 100%;
   height: 100%;
   background-color: var(--black);
-  z-index: 9999;
+ 
 }
 
 main{
@@ -285,4 +286,17 @@ footer{
   display: flex;
   flex-direction: column;
   background-color: var(--colorFooter);
+}
+
+@media screen and (max-width:1180px){
+    .apresentation{
+      background-image: none;
+      background-color: var(--white);
+    }
+}
+
+.mediaApresentation{
+   display: flex;
+   flex-direction: column;
+
 }
