@@ -20,6 +20,7 @@ html{
    --rowLeftContainerOne : #006341;
    --borderButtons:#454545;
    --backgroundLastImg : #e8e9ee;
+   --linkColor:#a8f8dd;
 }
 body{
    width: 100%;
@@ -149,12 +150,12 @@ header{
    background-color: var(--rowLeftContainerOne);
 }
 .pStyle{
-  font-weight: 400;
+ font-family: 'Open Sans',sans-serif;
+ font-weight: 400;
+ line-height: 1.6;
  font-size: 1.6rem;
  color: var(--black);
- font-family: 'Open Sans',sans-serSectionImgif;
  width: 45rem;
- line-height: 1.6;
 }
 .buttonStyle{
   background-color: var(--white);
@@ -222,7 +223,7 @@ header{
 .tc{
   width: 28rem;
 }
-.sideBar{
+#sideBar{
   display: none;
   position: fixed;
   top: 0;
@@ -232,6 +233,56 @@ header{
   background-color: var(--black);
   z-index: 9999;
 }
+
 main{
   transition: 0.2s;
+}
+.btnCloseStyle{
+ background-color: #111111;
+ font-size: 2.8rem;
+ color: var(--white);
+ 
+}
+.list li{
+  font-family: 'Open Sans',sans-serif;
+  font-size: 1.6rem;
+  color: var(--white);
+}
+.menuStyle{
+ text-align: right;
+}
+.list{
+  text-align: center;
+  list-style-type: none;
+}
+.btnCloseStyle , .list{
+  cursor: pointer;
+   padding:2rem 2rem 0px 0px;
+}
+.pFoo {
+   font-size: 1.4rem;
+   text-align: center;
+   font-family: 'Open Sans',sans-serif;
+   font-weight: 400;
+   line-height: 1.6;
+   color: var(--white);
+   padding-top: 5rem;
+}
+.pa{
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+  
+}
+a{
+  text-decoration: underline;
+  color: var(--linkColor);
+}
+a:hover{
+  text-decoration: none;
+}
+footer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--colorFooter);
 }
