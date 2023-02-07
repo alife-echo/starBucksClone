@@ -223,19 +223,21 @@ header{
 .tc{
   width: 28rem;
 }
-#sideBar{
+.menuStyle{
   height: 100%;
   width: 0;/*tamanho 0 */
   position: fixed; /*posição fixa*/
-  z-index: 1;/*sobrepor os elementos*/
   top: 0; /*começar no topo*/
   left: 0;/*começar na esquerda*/
   background-color: var(--black); /*preto com uma opacidade de 0.9*/
   overflow-x: hidden; /*esconder o conteudo*/
   transition: 0.5s;
- 
+  z-index: 3;
 }
-
+.shadowBarHidden{
+  z-index: 1;/*sobrepor os elementos*/
+  background-color: rgb(0, 0,0,0.5); /*preto com uma opacidade de 0.9*/
+}
 main{
   transition: 0.2s;
 }
